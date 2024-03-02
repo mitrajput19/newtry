@@ -28,7 +28,7 @@ jobs:
                 python -m pip install --upgrade pip
 
             - name: Publish distribution to PyPI
-              uses: pypa/gh-action-pypi-publish@main
+              uses: pypa/gh-action-pypi-publish@master
               with:
                 username: __token__
                 password: ${{ secrets.Test }}
